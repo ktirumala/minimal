@@ -1,0 +1,58 @@
+
+/*god i hate these comments grrrrr*/
+
+/*importing tailwind*/
+@import "tailwindcss";
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fbfbf2;
+}
+    
+    
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+    
+    
+em {
+    font-style: italic;
+}
+
+a {
+    color: #77c9d3;
+}
+
+a:hover {
+    color: #118b9a;
+}
+
+
+.hidden{
+    display: "none";
+}
+
+
+
+
+/*paragraph flexboxes?*/
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #118b9a;
+}
+.history {
+    display: flex;
+    flex-direction: row;
+    border-radius: 3em;
+    border-color:#118b9a;
+    color:#c1e7ff;
+    justify-content: space-between;
+
+    
+
+}
